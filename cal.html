@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <form name="myform">
+                <input class="textview" name="textview"><br>
+            </form>    
+                <table>
+                    <tr>
+                        <td colspan="2"><input type="button" value="C" id="btn1" onclick="cln()"></td>
+                        <td><input type="button" value="/" id="btn" onclick="insert_in_textview('/')"></td>
+                        <td><input type="button" value="*" id="btn" onclick="insert_in_textview('*')"></td>
+                    
+                    </tr>
+
+                    <tr>
+                            <td><input type="button" value="7" id="btn" onclick="insert_in_textview(7)"></td>
+                            <td><input type="button" value="8" id="btn" onclick="insert_in_textview(8)"></td>
+                            <td><input type="button" value="9" id="btn" onclick="insert_in_textview(9)"></td>
+                            <td><input type="button" value="-" id="btn" onclick="insert_in_textview('-')"></td>
+                    </tr>
+
+                     <tr>
+                            <td><input type="button" value="4" id="btn" onclick="insert_in_textview(4)"></td>
+                            <td><input type="button" value="5" id="btn" onclick="insert_in_textview(5)"></td>
+                            <td><input type="button" value="6" id="btn" onclick="insert_in_textview(6)"></td>
+                            <td><input type="button" value="+" id="btn" onclick="insert_in_textview('+')"></td>
+                    </tr> 
+
+                    <tr>
+                            <td><input type="button" value="1" id="btn" onclick="insert_in_textview(1)"></td>
+                            <td><input type="button" value="2" id="btn" onclick="insert_in_textview(2)"></td>
+                            <td><input type="button" value="3" id="btn" onclick="insert_in_textview(3)"></td>
+                            <td rowspan="5"><input type="button" value="=" id="btn2" onclick="cal()"></td>
+                    </tr>
+
+                    <tr>
+                            <td colspan="2"><input type="button" value="0" id="btn1" onclick="insert_in_textview(0)"></td>
+                            <td><input type="button" value="." id="btn" onclick="insert_in_textview('.')"></td>
+                            
+                    </tr>
+
+                </table>
+        </div>
+        <script src="myscript.js"></script>
+
+    </body>
+
+
+</html>

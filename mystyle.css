@@ -1,0 +1,55 @@
+
+            body{
+                background :linear-gradient(to top,pink
+                ,purple);
+                
+            }
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            #btn{
+                width: 50;
+                height: 35;
+                font-size: 20;
+                margin: 3;
+                cursor: pointer;
+            }
+
+            #btn1
+            {
+                width : 110;
+                height: 35;
+                font-size: 20;
+                margin: 3;
+                cursor: pointer;
+            }
+
+            #btn2
+            {
+                width : 50;
+                height: 85;
+                font-size: 20;
+                margin: 3;
+                cursor: pointer;
+            }
+            
+            .container{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%)translateY(-50%);
+            }
+
+            .textview{
+                
+                margin-bottom: 10;
+                width: 100%;
+                height: 7%;
+                padding: 5;
+                font-size: 20;
+            }
+
+  
